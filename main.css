@@ -1,0 +1,121 @@
+html{
+    scroll-behavior: smooth;
+}
+#navi {
+    position: fixed;
+    background-color: gray;
+    width: 100%;
+    height: 40px;
+    padding: 10px; 
+    top: 0%;
+    overflow: hidden;
+   
+}
+
+#navi a {
+    color: white;
+    margin-right: 40px; 
+    font-size: 20px;
+    position: relative;
+    float: right;
+    display: flex;
+    flex-direction:column-reverse;
+}
+
+#navi a:hover {
+    color: yellow;
+    
+}
+#about {
+    padding-top: 60px;
+    padding-right: 0%;
+}
+
+#about-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#about img {
+    height: 280px;
+    width: 280px;
+    border-radius: 25% 25%;
+}
+#about img:hover{
+    box-shadow: 0 0 10px yellow;
+}
+#about .head{
+    
+    font-size: 50px;
+}
+#about {
+    
+    
+
+  
+   color: yellow;
+    font-size: 20px;
+}
+#about-para{
+    width: 50%;
+}
+
+
+#skills{
+    padding-top: 80px;
+
+    padding-bottom: 80px;
+}
+#skills-div{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+   
+}
+
+.card{
+
+    background-color:gold;
+    color: black;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px green;
+    border-radius: 25px;
+      
+   
+    
+}
+.card:hover{
+    box-shadow:  0 0 100px white;
+   
+}
+
+
+.img{
+    height: 40px;
+    width: 40px;
+    border-radius: 25%;
+    
+    
+    
+}
+.img:hover{
+    box-shadow: 0 0 8px yellow;
+    height:50px;
+    width: 50px;
+}
+#contact-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    top: 150px;
+    
+
+}
